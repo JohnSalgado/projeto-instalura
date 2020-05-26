@@ -27,7 +27,7 @@ const Foto = ({ urlFoto, descricao, qntLikes }) => {
       />
       <Text>{descricao}</Text>
       <View style={estilo.viewLike}>
-        <TouchableOpacity onPress={curtirFoto}>
+        <TouchableOpacity onPress={clicouCurtir}>
           <Image 
           source={imgLike(curtiu)} 
           style={estilo.like}
